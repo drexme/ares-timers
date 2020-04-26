@@ -4,7 +4,7 @@ const token = process.env.token;
 const PREFIX = "!";
 
 client.on('ready', () => {
-    console.log("The client is active and ready to go!");
+    console.log("The client is active and ready to go you loser!");
 });
 
 client.on('message', message =>{
