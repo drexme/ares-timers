@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({disableEveryone: false});
-const token = "NzAzNzQ2ODg0OTA4NDgyNjkx.XqXkfw.8pkFFX1-cnrfHCtfYbLS8xeuzuQ";
+const token = process.env.token;
 const PREFIX = "!";
 
 client.on('ready', () => {
