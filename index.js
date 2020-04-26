@@ -384,7 +384,7 @@ client.on('message', message =>{
                 .setTimestamp();
                 channel.send({embed: sEmbed});
             }else {
-                bossNotice.send("@everyone Invalid status. Please choose the correct one: up, window, down. Check !status for more info.");
+                message.reply("Invalid status. Please choose the correct one: up, window, down. Check !status for more info.");
             }
         break;
         case "status":
